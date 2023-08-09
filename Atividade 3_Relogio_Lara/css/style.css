@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: linear-gradient(pink, cyan);
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#relogio{
+    display: flex; 
+    gap: 30px;
+}
+
+#relogio div{
+    padding: 60px;
+    border-radius: 150px;
+    background: white;
+}
+
+#relogio div span{
+    font-size: 100px;
+    font-family: relogio;
+}
+
+@font-face {
+    font-family: relogio;
+    src: url('/ATIVIDADE 3_RELOGIO_LARA/fonte/DS-DIGIT.TTF');
+}
